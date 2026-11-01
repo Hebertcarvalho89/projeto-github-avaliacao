@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo 1 - CSS Grid</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .galeria img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>A minha galeria de fotografias</h1>
+
+  <div class="galeria">
+    <img src="https://picsum.photos/id/1015/500/300"
+         alt="Montanhas">
+
+    <img src="https://picsum.photos/id/1025/500/300"
+         alt="Cão">
+
+    <img src="https://picsum.photos/id/1016/500/300"
+         alt="Paisagem">
+
+    <img src="https://picsum.photos/id/1039/500/300"
+         alt="Natureza">
+  </div>
+
+</body>
+</html>
