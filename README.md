@@ -1,4 +1,4 @@
-# O Meu Primeiro Projeto Web
+# *O Meu Primeiro Projeto Web*
 *texto em itálico*
 
 ## Descrição
@@ -24,5 +24,5 @@ Até seis niveis
  2. Abra o ficheiro index.html no navegador
 
  ## Autor
- Hebert
+ **Hebert**
  **texto em negrito**
