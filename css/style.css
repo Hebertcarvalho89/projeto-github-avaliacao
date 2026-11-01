@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(135, 220, 235, 0.747);
+}
+
+.tentativa, .div{
+background-color: rgb(227, 227, 231);
+padding: 2px;
+border: 2px solid #007bff;
+} 
